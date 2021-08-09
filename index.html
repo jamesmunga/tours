@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Dropdown Menu using HTML CSS and Javascript</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+   </head>
+   <body>
+   
+   <div class="wrapper">
+    <div class="navbar">
+     <div class="logo">
+      <a href="#">TOURS AND TRAVEL</a>
+     </div>
+     <div class="nav_right">
+      <ul>
+       <li class="nr_li dd_main">
+    
+           <i class="fas fa-map-marker-alt"></i>Location</li>
+       </li
+      </ul>
+     </div> 
+    </div>
+   </div> 
+ 
+       <html lang="en">
+        <head>
+        <body>
+            <div id="header">
+                <img src="beach (1).jpg" alt="img.1" style="width: 300px;height: 300px;border-radius: 200px;
+                border-shadow:cyan;
+        justify-content: center;align-items: center;margin-top: 450px;margin-left: 500px;
+                ">
+               
+            </div>
+                <section>   <html>
+                    <head>
+                    <style>
+                    
+
+                    
+                    </style>
+                    </head>
+                    <body>
+                    
+                    <h2>BOOK FOR A SLOT </h2>
+                    <p></p>
+                    
+                    <div class="dropdown">
+                    
+                    <button onclick="myFunction()"
+                    class="dropbtn">HERE
+                </button>
+                    
+                    <div id="myDropdown"
+                    class="dropdown-content">
+                    
+                    <input type="text"
+                    placeholder="Search.."
+                    id="myInput"onkeyup="filterFunction()">
+                 <a href="#about"> <i class="fas fa-info></i> about</a>
+                    <a href="#blog">  <i class="fas fa-blog"></i> Blog</a>
+                    <a href="#contact"><i class="fas fa-phone"></i>Contact</a>
+                    <a href="#custom"><i class="fas fa-gears"></i>  Custom</a>
+                   <a href="#support"> <i class="fas fa-"></i> Support</a>
+                    <a href="#tools"> <i class="fas fa-envilop"></i> Tools</a>
+                      </div>
+                    
+                    </div>
+                    
+                    <script>
+                    
+                    function myFunction() {
+                    document.getElementById("myDropdown")
+                    .classList.toggle("show");
+                    }
+                    
+                    function filterFunction() {
+                      var input, filter, ul, li, a, i;
+                    
+                      input = document.getElementById
+                      ("myInput");
+                    
+                      filter = input.value.toUpperCase();
+                    
+                      div = document.getElementById
+                      ("myDropdown");
+                    
+                      a = div.getElementsByTagName("a");
+                    
+                      for (i = 0; i < a.length; i++) {
+                    
+                      if (a[i].innerHTML.toUpperCase()
+                      .indexOf(filter) > -1) {
+                    
+                               a[i].style.display = "";
+                            } else {
+                              a[i].style.display="none";
+                            }
+                        }
+                    }
+                    
+                    </script>
+                    
+                    </body>
+                    </html><style>
+                   .navbar{
+                        background: #74ded8;
+                        width: 100%;
+                        height: 60px;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        padding: 0 50px;
+                        }
+                                            </style>
+                    <h2> DIANI BEACH</h2>
+                    <p>Diani Beach is a major beach on the Indian Ocean coast of Kenya.
+                         It is located 30 kilometres south of Mombasa, in Kwale County.
+                         It has been voted Africa's leading beach destination for the fifth time running
+                          since 2015.
+                        </p>
+                </section><div class="navbar" >
+                </div>
+                <script type="text/javascript">
+                const bg = document.getElementById('header');
+                window.addEventListener('scroll',function() {
+                    bg.style.backgroundSize = 160 - +window.pageYOffset/12+'%';
+                    bg.style.opacity= 1 - +window.pageXOffset/700+'';
+                })
+                </script>
+     
+   </body>
+   </html>  </body>
+   </html>
